@@ -1,0 +1,25 @@
+yarn install
+typescript@^4.5.4:
+    version "4.5.4"
+    resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.4.tgz#hash"
+    integrity sha512-hash
+
+express@^4.17.1:
+    version "4.17.1"
+    resolved "https://registry.yarnpkg.com/express/-/express-4.17.1.tgz#hash"
+    integrity sha512-hash
+
+nodemon@^2.0.20:
+    version "2.0.20"
+    resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-2.0.20.tgz#hash"
+    integrity sha512-hash
+
+ts-node@^10.4.0:
+    version "10.4.0"
+    resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.4.0.tgz#hash"
+    integrity sha512-hash
+
+@types/node@^16.11.7:
+    version "16.11.7"
+    resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.7.tgz#hash"
+    integrity sha512-hash

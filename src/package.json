@@ -1,0 +1,23 @@
+{
+  "name": "speed-camera-alert-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon --watch 'src/' --exec 'ts-node src/index.ts' -e ts",
+    "create:views": "mkdir -p src/views"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "packageManager": "yarn@1.22.17",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "typescript": "^4.5.4",
+    "ts-node": "^10.4.0",
+    "@types/node": "^16.11.7"
+  }
+}

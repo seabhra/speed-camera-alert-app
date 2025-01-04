@@ -1,0 +1,32 @@
+{
+  "name": "speed-camera-alert-app",
+  "version": "1.0.0",
+  "description": "A speed camera alert application",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "yarn install && yarn start",
+    "start:dev": "nodemon --watch 'src/' --exec 'ts-node src/index.ts' -e ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.1.3",
+    "mongoose": "^6.6.5",
+    "tslib": "^2.4.1",
+    "firebase-admin": "^10.0.0"
+  },
+  "express": "^4.18.2",
+  "axios": "^1.1.3",
+  "mongoose": "^6.6.5",
+  "tslib": "^2.4.1",
+  "firebase-admin": "^10.0.0"
+},
+"devDependencies": {
+  "nodemon": "^2.0.22",
+  "typescript": "^4.8.4",
+  "ts-node": "^10.9.1",
+  "@types/node": "^18.11.9"
+},
+"license": "MIT"
+}
